@@ -23,7 +23,7 @@ main{
     /* justify-content: space-between; */
     /* background-color: white; */
     background-color: hsl(36, 100%, 99%);
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .pic{
     /* background-color: violet; */
@@ -59,17 +59,14 @@ section{
     grid-template-rows: repeat(3, 1fr);
     width: 100%;
     height: 550px;
-    background-color: sienna;
-    /* gap: 10px; */
-    /* grid-template-rows: repeat(6,1fr); */
+    /* background-color: sienna; */
 }
 .left{
     /* background-color: blueviolet; */
-    /* background-image: url(./assets/images/image-web-3-desktop.jpg); */
     grid-column: 1/2;
     grid-row: 1/2;
     width: 700px;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 .left img{
@@ -80,19 +77,18 @@ section{
     grid-column: 2;
     grid-row: 1/3;
     width: 370px;
-    margin-top: 50px;
-    margin-left: 180px;
+    margin-top: 30px;
+    margin-left: 20px;
     background-color: hsl(240, 100%, 5%);
     padding: 1.5rem;
+    height: 500px;
 }
 .right h1{
     font-weight: 900;
-    /* margin-left: 15px; */
     margin-top: 30px;
     color: hsl(35, 77%, 62%);
     font-family: 'Inter';
-    font-family: 'Poppins';
-    /* letter-spacing: 0.5ch; */
+    /* font-family: 'Poppins'; */
 
 }
 .right p{
@@ -107,18 +103,12 @@ section{
     cursor: pointer;
 }
 #me{
-    /* color: hsl(236, 13%, 42%); */
-    /* color: hsl(36, 100%, 99%); */
     font-weight: 400;
     color: hsl(233, 8%, 79%);
     font-size: 15px;
-    /* border-bottom: 2px solid rgb(250, 246, 246); */
-
 }
 hr{
-    /* weight: 900px; */
    margin-top: 20px;
-   /* background-color: hsl(233, 8%, 79%); */
     border-bottom: 2px solid hsl(233, 8%, 79%);
     border-top: none;
 
@@ -126,17 +116,12 @@ hr{
 .mid{
     /* background-color: salmon; */
     display: flex;
-    justify-content: space-around;
-    /* justify-content: space-between; */
-    /* width: 800px; */
-    grid-column: 1/2;
-    grid-row: 2/3;
-    /* margin-left: 140px; */
+    width: 1000px;
 }
 .cup{
     width: 300px;
-    margin-left: 300px;
     /* background-color: turquoise; */
+    margin-left: 300px;
 }
 .cup h1{
     font-weight: 900;
@@ -145,115 +130,145 @@ hr{
 }
 .spoon{
     /* background-color: violet; */
-    width: 220px;
+    width: 370px;
 
-    /* margin-left: 100px; */
 }
 .spoon p{
     padding-top: 10px;
     color: hsl(236, 13%, 42%);
-
-
-
 }
 .spoon button{
    margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: hsl(5, 85%, 63%);
     color: hsl(36, 100%, 99%);
     border: none;
     cursor: pointer;
     letter-spacing: 1ch;
+    margin-left: 20px;
+    font-weight: 800;
+}
+.spoon button:hover{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    cursor: pointer;
 }
 footer{
     /* background-color: crimson; */
     display: flex;
     width: 1400px;
-    height: 400px;
-
-    /* gap: 20px; */
-    /*  */
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
-
+    height: 160px;
+    margin-top: 40px;
 }
 footer h1 , h2 , p{
     padding-left: 15px;
 }
 .first{
     /* background-color: cornflowerblue; */
-    width: 460px;
+    width: 490px;
     height: 180px;
     display: flex;
-    margin-left: 280px;
+    margin-left: 270px;
 }
 .first img{
-    width: 180px;
-    height: 160px;
+    width: 160px;
+    height: 140px;
 }
 .para1 h1{
     color: hsl(236, 13%, 42%);
-    font-weight: 400;
+    font-weight: 800;
     padding-top: 10px;
 }
 .para1 h2{
     font-size: 15px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 900;
 }
+.para1 h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
 .para1 p{
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 12px;
+    margin-top: 10px;
     color: hsl(236, 13%, 42%);
 
 }
 .second{
-    background-color: darkorange;
-    width: 400px;
-    height: 120px;
+    /* background-color: darkorange; */
+    width: 500px;
+    height: 180px;
+    display: flex;
 
 }
 .second img{
+    width: 160px;
+    height: 140px;
+}
+.para2 h1{
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+    padding-top: 10px;
 
+}
+.para2 h2{
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.para2 h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+
+}
+.para2 p{
+    font-size: 12px;
+    margin-top: 10px;
+    color: hsl(236, 13%, 42%);
 }
 .third{
-    background-color: darkviolet;
-    width: 400px;
-    height: 120px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* .second{
-    width: 100%;
+    /* background-color: darkviolet; */
+    width: 500px;
+    height: 180px;
     display: flex;
-    background-color: yellowgreen;
-    justify-content: space-evenly;
+    /* margin-left: 40px; */
 
 }
-.sec{
-    width: 600px;
-    height: 100px;
-    background-color: turquoise;
+.third img{
+    width: 160px;
+    height: 140px;
 }
-#two{
-    width: 550px;
-    height: 200px;
+.para3 h1{
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+    padding-top: 10px;
 }
-.right{
-    width: 300px;
-    height: 400px; 
-    background-color: tomato;
-} */
+.para3 h2{
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.para3 h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+
+}
+.para3 p{
+    font-size: 12px;
+    margin-top: 10px;
+    color: hsl(236, 13%, 42%);
+
+}
+.attribution{
+    font-family: 'Poppins';
+}
+.attribution a{
+    text-decoration: none;
+}
+.attribution p{
+    font-size: 20px;
+}
 
